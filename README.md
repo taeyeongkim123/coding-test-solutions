@@ -10,6 +10,7 @@ CS 알고리즘 학습 기록용으로 [AtCoder](https://atcoder.jp/), [Programm
 | 문제 | 난이도 | 핵심 아이디어 | 시간복잡도 |
 |---|---|---|---|
 | [ABC458 C - C Stands for Center](https://atcoder.jp/contests/abc458/tasks/abc458_c) | 400 | 각 'C'를 중심으로 대칭 확장 가능한 반지름 계산 | O(N) |
+| [ABC461 C - Variety](https://atcoder.jp/contests/abc461/tasks/abc461_c) | 300 | 가치 상위 K개 선택 후, 최대 힙(추가 후보)·최소 힙(제거 후보)으로 색 종류 수를 M까지 교환 증가 | O(N log N) |
 | [ABC462 C - Not Covered Points](https://atcoder.jp/contests/abc462/tasks/abc462_c) | 300 | X 오름차순 정렬 + Y의 접두사 최솟값(prefix minimum) | O(N log N) |
 | [ABC463 C - Tallest at the Moment](https://atcoder.jp/contests/abc463/tasks/abc463_c) | 300 | 접미사 최댓값 배열 + 이분 탐색 | O((N+Q) log N) |
 | [ABC463 D - Maximize the Gap](https://atcoder.jp/contests/abc463/tasks/abc463_d) | 500 | 이분 탐색(정답) + 구간 스케줄링 탐욕으로 실현 가능성 판정 | O(N log N log C) |
